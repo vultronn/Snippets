@@ -1,0 +1,5 @@
+snippet clipw
+	write.table(${1:df}, 'clipboard', sep = '\t', row.names = F)
+	
+snippet ggp2
+	ggplotly(ggplot2::last_plot())
